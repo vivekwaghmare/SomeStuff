@@ -1,0 +1,14 @@
+{
+  "name": "@math-app/shared",
+  "version": "1.0.0",
+  "description": "Shared utilities and game logic",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
