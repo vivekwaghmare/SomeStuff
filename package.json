@@ -1,0 +1,21 @@
+{
+  "name": "math-practice-app",
+  "version": "1.0.0",
+  "description": "Cross-platform math practice app for kids",
+  "private": true,
+  "workspaces": [
+    "web",
+    "mobile",
+    "shared"
+  ],
+  "scripts": {
+    "install:all": "npm install && npm run install:web && npm run install:mobile",
+    "install:web": "cd web && npm install",
+    "install:mobile": "cd mobile && npm install",
+    "dev:web": "cd web && npm start",
+    "dev:mobile": "cd mobile && npx expo start",
+    "build:web": "cd web && npm run build",
+    "build:mobile:android": "cd mobile && eas build --platform android",
+    "build:mobile:ios": "cd mobile && eas build --platform ios"
+  }
+}
