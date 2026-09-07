@@ -22,7 +22,7 @@ import {
   LinearScale,
   PointElement,
   LineElement,
-  Title,
+  Title as ChartTitle,
   Tooltip,
   Legend
 } from 'chart.js';
@@ -32,7 +32,7 @@ ChartJS.register(
   LinearScale,
   PointElement,
   LineElement,
-  Title,
+  ChartTitle,
   Tooltip,
   Legend
 );
